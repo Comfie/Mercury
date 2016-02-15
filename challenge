@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="www/lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="www/css/style.css" rel="stylesheet">
+    <link href="css/ionic.app.css" rel="stylesheet"> 
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="www/lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="www/cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="www/js/app.js"></script>
+  </head>
+<body ng-app bgcolor="grey">
+
+   <div class="card">
+   
+    <div class="container">
+    <div align="left">
+   <h1>Buy at Price</h1>
+   <h1>{{370.00}}</h1>
+    <div class="col-lg-12" align="center">
+  <h1 class="page-header">{{378.99}}
+ </h1>
+ <h3>{{"This is the Price for the BitCoin"}}</h3>
+ <div align="right" class="aside">
+ <h1>Sell at Price</h1>
+ <h1>{{378.99}}</h1>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="../www/lib/angular/angular.min.js"></script>
+
+  </body>
+</html>
